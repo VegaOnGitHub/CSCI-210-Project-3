@@ -87,7 +87,7 @@ int main() {
 		// cd command
 		if (strcmp(argv[0], "cd") == 0) {
 			if (argc > 2){
-				printf("-rsh: cd too many arguments\n");
+				printf("-rsh: cd: too many arguments\n");
 			} else if (argc == 2) {
 				chdir(argv[1]);
 			}
